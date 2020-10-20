@@ -10,14 +10,14 @@ function App() {
     <Layout>
         <Header className='header-color' title={<Link style={{textDecoration: 'none', color: 'white'}} to='/'>Ahmed Nurovic</Link>} scroll>
             <Navigation>
-                <Link to="/resume">Resume</Link>
+                <Link onClick={()=> window.open("https://1drv.ms/b/s!Au387mKpzceIu3AzZyu9GCvc5L_M?e=fe5e8V", "_blank")}>Resume</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact / About</Link>
             </Navigation>
         </Header>
         <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to='/'>Ahmed Nurovic</Link>}>
             <Navigation>
-                <Link to="/resume">Resume</Link>
+                <Link onClick={()=> window.open("https://1drv.ms/b/s!Au387mKpzceIu3AzZyu9GCvc5L_M?e=fe5e8V", "_blank")}>Resume</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact / About</Link>
             </Navigation>
